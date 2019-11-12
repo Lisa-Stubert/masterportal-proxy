@@ -1,0 +1,3 @@
+RewriteEngine On
+# Add all domains/subdomains of external sites here
+RewriteRule ^example-domain_de/(.*)$ proxy.php?domain=example-domain.de&uri=$1 [QSA]
